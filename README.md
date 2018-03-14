@@ -1,13 +1,13 @@
 # p5.js jegyzet (Skool 2018 tavaszi félév)
 
 
-![Skool - yes, she codes](http://skool.org.hu/wp-content/themes/skool/images/logo_normal.png)  
+![Skool - yes, she codes](skool-logo.png)  
 Ez a 2018. tavaszi Skool & Prezi foglalkozás honlapja.  
 A foglalkozás csütörtökönként 17:00-19:00 között zajlik a Prezi irodájában, összesen tíz alkalommal március 22. és április 24. között.   
 
 ## Tartalomjegyzék
 1. óra - [Bemutatkozás, tájékoztatás, kedvcsináló](01-bemutatkozas/jegyzet.md)
-2. óra - [Programozás alapfogalmai – Bob kávézója](02-programozas-alapok/jegyzet.md)  
+2. óra - [Programozás alapfogalmai – Kool Kávézó](02-programozas-alapok/jegyzet.md)  
 3. óra - [p5 alapok](03-p5-alapok/jegyzet.md)  
 4. óra - [JSBin tutorial, p5 modell](04-p5-modell/jegyzet.md)  
 5. óra - [p5 modell, képek beállítása](05-kepek/jegyzet.md)  

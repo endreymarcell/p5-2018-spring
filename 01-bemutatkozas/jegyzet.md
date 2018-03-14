@@ -1,0 +1,3 @@
+# Bemutatkozás, tájékoztatás, kedvcsináló
+
+TODO

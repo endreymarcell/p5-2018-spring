@@ -1,7 +1,7 @@
 # p5.js jegyzet (Skool 2018 tavaszi félév)
 
 
-![Skool - yes, she codes](skool-logo.png)  
+![Skool - yes, she codes](http://endreymarcell.hu/p5v4/skool-logo.png)  
 Ez a 2018. tavaszi Skool & Prezi foglalkozás honlapja.  
 A foglalkozás csütörtökönként 17:00-19:00 között zajlik a Prezi irodájában, összesen tíz alkalommal március 22. és április 24. között.   
 

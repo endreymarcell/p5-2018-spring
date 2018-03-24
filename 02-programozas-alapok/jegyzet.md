@@ -69,7 +69,7 @@ Azoknál a parancsoknál, amiknek információra van szüksége a futáshoz, ez 
 
 * Mi a különbség az `alert(company)` és az `alert("company")` között?
 
-Ilyenkor is lehet még az értékekkel műveleteket végezni, pl `nyan(stars * 2)` vagy `alert("The color of the wall is " + wallColor)`.  
+Ilyenkor is lehet még az értékekkel műveleteket végezni, pl `cat(stars * 2)` vagy `alert("The color of the wall is " + wallColor)`.  
 
 > Ha egy parancs bemenő információkat vár, azt _argumentumnak_ vagy _paraméternek_ nevezzük.
 

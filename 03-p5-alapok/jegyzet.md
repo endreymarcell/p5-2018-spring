@@ -5,7 +5,8 @@ A p5.play kiegészítő segítségével _szereplőket_, úgynevezett _sprite-oka
 
 ## Saját sprite létrehozása
 
-Ebben a binben dolgozz: http://jsbin.com/xolewux/edit?console,output  
+Ebben a binben dolgozz: http://jsbin.com/vizodax/edit?console,output
+
 
 Új sprite létrehozása: `bob = createSprite()`  
 (Nem muszáj bobnak nevezni, én megszokásból csinálom, így nem kell rajta gondolkodni.)  
@@ -16,8 +17,11 @@ Mennyi ennek az értéke most? Mi történik, ha megváltoztatod?
 bob mozgatása: nagyon precíz lélek, képpontra pontosan meg kell neki mondani, hol legyen: a bal felső saroktól mennyire jobbra és mennyire lefelé.  
 `bob.position.x` és `bob.position.y`  
 
+
 Van globális `width` és `height` változó. Mit adnak meg? Be tudod állítani bobot pont a vászon jobb alsó sarkába?  
 Be tudod állítani bobot a vászon közepére?  
+
+Ha segítséget szeretnél a tájékozódáshoz, kattints, és látni fogok a koordinátákat és a tengelyeket.  
 
 bob mérete: `bob.width` és `bob.height`. Nem összekeverendő a globális `width` és `height` változókkal!  
 
@@ -30,3 +34,4 @@ Ha ki akarod törölni bobot: `bob.remove()`
 
 Próbáld ki ugyanezeket a parancsokat itt: http://jsbin.com/weduva/edit?console,output  
 Közben figyeld, mi történik a kivetítőn.  
+

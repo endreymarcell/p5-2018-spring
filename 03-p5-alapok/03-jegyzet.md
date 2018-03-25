@@ -35,3 +35,4 @@ Ha ki akarod törölni bobot: `bob.remove()`
 Próbáld ki ugyanezeket a parancsokat itt: http://jsbin.com/weduva/edit?console,output  
 Közben figyeld, mi történik a kivetítőn.  
 
+

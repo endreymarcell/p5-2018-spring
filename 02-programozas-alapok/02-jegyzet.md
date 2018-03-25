@@ -61,7 +61,8 @@ A szám típusú adatokat lehet növelni vagy csökkenteni is: `stars += 1` vagy
 
 > Az adatok neve programozásban: _változó_.  
 >
-> A szöveg típust hivatalosan _"string"-nek_ nevezzük.
+> A szöveg típust hivatalosan _"string"-nek_ nevezzük.  
+
 
 #### És a kettő együtt
 
@@ -96,6 +97,8 @@ A fentieket bárhogy kombinálhatjuk.
 * Hívj be annyi macskát, amilyen jó bob kedve!
 * Állítsd be a kávézó nevét bob színére!
 
+> Ezeket a szereplőket vagy tárgyakat — egyszóval önálló csomagokat, amiknek saját függvényeik és változóik vannak, _objektumnak_ nevezzük.  
+
 ### KÉRDÉSEK
 
 #### Általában
@@ -112,15 +115,17 @@ A `round()` egy tört számot vár, és visszaadja kerekítve. A `min()` és a `
 
 #### Elmentés adatként
 
-Kérdésre érkező választ el tudunk menteni adatként: pl. `name = dayName()` vagy `bob.mood = random(-5, 5)`  
+Kérdésre érkező választ el tudunk menteni adatként: pl. `company = dayName()` vagy `bob.mood = random(-5, 5)`  
+
 
 #### Felhasználás parancsban
 
 A kérdésekre érkező választ át tudjuk adni egy parancsnak: pl. `bob.say(dayName())` vagy `cat(day())`.  
 
+
 #### Felhasználás kérdésben
 
-Sőt, a kérdésekre érkező választ továbbadhatjuk egy következő kérdésbe is: `round(random(1, 5))` vagy `bob.say(uppercase("coffee"))`.  
+Sőt, a kérdésekre érkező választ továbbadhatjuk egy következő kérdésbe is: `round(random(1, 5))` vagy `alert(uppercase("coffee"))`.  
 
 #### Bármilyen kombináció
 
@@ -130,4 +135,6 @@ Bárhogy kombinálhatod:
 * véletlenszám 0 és a kávézó csillagainak száma között: `random(0, stars)`
 
 Stb.  
+
+
 

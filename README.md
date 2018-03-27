@@ -5,6 +5,9 @@
 Ez a 2018. tavaszi Skool & Prezi foglalkozás honlapja.  
 A foglalkozás csütörtökönként 17:00-19:00 között zajlik a Prezi irodájában, összesen tíz alkalommal március 22. és április 24. között.   
 
+## Facebook-csoport  
+https://www.facebook.com/groups/593638677636363/  
+
 ## Tartalomjegyzék
 1. óra - [Bemutatkozás, tájékoztatás, kedvcsináló](01-bemutatkozas/jegyzet.md)
 2. óra - [Programozás alapfogalmai – Kool Kávézó](02-programozas-alapok/jegyzet.md)  

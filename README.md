@@ -9,16 +9,16 @@ A foglalkozás csütörtökönként 17:00-19:00 között zajlik a Prezi irodáj�
 https://www.facebook.com/groups/593638677636363/  
 
 ## Tartalomjegyzék
-1. óra - [Bemutatkozás, tájékoztatás, kedvcsináló](01-bemutatkozas/jegyzet.md)
-2. óra - [Programozás alapfogalmai – Kool Kávézó](02-programozas-alapok/jegyzet.md)  
-3. óra - [p5 alapok](03-p5-alapok/jegyzet.md)  
-4. óra - [JSBin tutorial, p5 modell](04-p5-modell/jegyzet.md)  
-5. óra - [p5 modell, képek beállítása](05-kepek/jegyzet.md)  
-6. óra - [Mozgó, találkozó sprite-ok](06-mozgas-talalkozas/jegyzet.md)  
-7. óra - [Feltételek, billentyűzet](07-feltetelek/jegyzet.md)  
-8. óra - [For-ciklus](08-ciklusok/jegyzet.md)  
-9. óra - [Sprite-csoportok](09-csoportok/jegyzet.md)  
-10. óra - [Saját játék megírása](10-sajat-jatek/jegyzet.md)  
+1. óra - [Bemutatkozás, tájékoztatás, kedvcsináló](01-bemutatkozas/01-jegyzet.md)
+2. óra - [Programozás alapfogalmai – Kool Kávézó](02-programozas-alapok/02-jegyzet.md)  
+3. óra - [p5 alapok](03-p5-alapok/03-jegyzet.md)  
+4. óra - [JSBin tutorial, p5 modell](04-p5-modell/04-jegyzet.md)  
+5. óra - [p5 modell, képek beállítása](05-kepek/05-jegyzet.md)  
+6. óra - [Mozgó, találkozó sprite-ok](06-mozgas-talalkozas/06-jegyzet.md)  
+7. óra - [Feltételek, billentyűzet](07-feltetelek/07-jegyzet.md)  
+8. óra - [For-ciklus](08-ciklusok/08-jegyzet.md)  
+9. óra - [Sprite-csoportok](09-csoportok/09-jegyzet.md)  
+10. óra - [Saját játék megírása](10-sajat-jatek/10-jegyzet.md)  
 
 ## Speciális karakterek
 ### Windows

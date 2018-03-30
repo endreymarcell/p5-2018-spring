@@ -11,7 +11,9 @@ A parancssor legegyszerűbb felhasználási módja: számológép. Összeadás, 
 
 ## Alapfogalmak
 
-JSBin link: http://jsbin.com/beqiriq/edit?console,output  
+Itt tudod kipróbálni a lent leírtakat: http://jsbin.com/beqiriq/edit?console,output  
+_Ha van egy nagy világoskék sáv az oldal tetején, azt zárd be a bal felső sarkában lévő x-szel._  
+_Ha nem indul el a program, vagy ha valamikor később elromlik és újra szeretnéd indítani, nyomd meg a jobb felső sarokban lévő "Run with JS" gombot!_  
 
 ### ÁLTALÁBAN
 

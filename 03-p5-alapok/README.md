@@ -23,6 +23,7 @@ Most már azt is látjuk,  hogy bob a bal felső sarokban forog. Mozgatni kéne.
 bob mozgatása: nagyon precíz lélek, képpontra pontosan meg kell neki mondani, hol legyen: a bal felső saroktól mennyire jobbra és mennyire lefelé.  
 `bob.position.x` és `bob.position.y`  
 
+
 Az egér helye: globális `mouseX` és `mouseY` változók.  
 
 Van globális `width` és `height` változó. Mit adnak meg? Be tudod állítani bobot pont a vászon jobb alsó sarkába?  

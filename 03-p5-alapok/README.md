@@ -53,3 +53,4 @@ Közben figyeld, mi történik a kivetítőn.
 ## GitHub regisztráció
 
 Jövő órától nem parancssorba írjuk a programokat, hanem kódszerkesztőben, és el is mentjük őket. Ehhez regisztrálni kell JSBinre, ami úgy történik, hogy az ember a [github.com](http://github.com) oldalra regisztrál, és utána JSBinen bejelentkezik a GitHub regisztrációjával.  
+Részletes instrukciókat [itt találsz](jsbin-instructions.md).  

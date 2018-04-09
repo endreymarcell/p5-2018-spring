@@ -44,6 +44,19 @@ Színmodellek: http://output.jsbin.com/befobun/quiet
 
 RGB színmodell: http://output.jsbin.com/vulomek/quiet  
 
+Sprite színének beállítása RGB színre:  
+```
+bob.shapeColor = color(189, 70, 102)
+```
+Az első szám a pirosságot határozza meg, a második a zöldséget, a harmadik a kékséget. Mindhárom 0 és 255 között mozog. Minél nagyobbak a számok, annál világosabb a szín, tehát `color(0, 0, 0)` a fekete és a `color(255, 255, 255)` a fehér.  
+(Színek kikereséséhez keress rá Google-n arra, hogy "színválasztó".)  
+
+Ha átlátszóságot is akarsz állítani a sprite-nak, adj meg egy negyedik számot is:  
+```
+bob.shapeColor = color(189, 70, 102, 50)
+```
+A negyedik szám a szín "láthatóságát" szabályozó, úgynevezett _alpha_ beállítás. Ez is 0 és 255 között mozog, ahol a 0 a teljesen átlátszó (tehát láthatatlan) és a 255 a teljesen látható (ami amúgy is az alapértelmezés).  
+
 ## Sprite-gyűlés
 
 Próbáld ki a sprite-os parancsokat itt: http://jsbin.com/weduva/edit?console,output  

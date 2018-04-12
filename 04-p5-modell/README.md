@@ -6,7 +6,7 @@ Ma megtanulunk mozgó, sőt interaktív programokat írni.
 A p5 programok utasításai három blokkra vannak osztva: felkészülés - folyamat - reakció. A blokkok hivatalos neve: `setup`, `draw`, illetve a megadott történés neve: `mouseClicked`, `keyPressed` stb.  
 
 Írjunk vízcsepp-programot: egy kicsi, kék sprite elindul a vászon tetejéről, és lecsúszik - kattintásra pedig ugorjon vissza a vászon tetejére.  
-Teljesen üres sablon: https://gist.jsbin.com/endreymarcell/3202d6218443402331c6f374b158ee3a  
+Teljesen üres sablon: http://jsbin.com/zuqaquc/edit?js,output  
 
 
 
@@ -30,8 +30,8 @@ Ha szeretnéd, beleírhatod, hogy kattintásra viszont letörlődjön az egész 
 _Ez az előző program kiegészítése._  
 Legyen a programban még egy sprite, ami tükörben mozog az első száma sprite-tal: függőlegesen ugyanott van, de vízszintesen tükrözve van a vászon másik oldalára. A második sprite helyét újra meg újra ki tudod számolni az első sprite helyéből - gondolkodj rajta, hogyan, vagy beszéld meg a mentoroddal.)  
 
-__Valami__  
-Hozz létre egy sprite-ot a vászon közepén, aztán minden pillanatban állítsd be a sprite méretét aszerint, hogy mi az egér aktuális x helye, a forgását pedig aszerint, hogy mi az y hely.  
+__Fejben dől el__  
+Hozz létre egy sprite-ot a vászon közepén, aztán minden pillanatban állítsd be a sprite forgását aszerint, hogy mi az egér aktuális x helye. Tehát egyszerűen állítsd be a fordulatot mindig az x aktuális értékére. Ha ez megvan, a sprite méretét pedig (szélesség és magasság is) az egér y-jára állítsd.    
 (Ha még interaktívabb programot szeretnél, írd át a programot úgy, hogy a háttér ne fehér legyen, hanem az is az egér helyzetéből következzen, például az piros színkomponens lehet az egér x helyzete, a kék pedig az y.)  
 
 __Graffiti__  
@@ -46,8 +46,6 @@ __Hanghullám__
 A sprite-od legyen 3 képpont széles, 1 képpont magas. Induljon a vászon bal széléről, függőlegesen középről. Minden pillanatban állítsd a magasságát véletlenre 0 és `height` között, és told vízszintesen jobbra három képponttal. A vásznat ne töröld le menet közben.  
 (Ezt kiegészítheted azzal, hogy kattintásra letörlöd a vásznat, és visszahozod a sprite-ot a vászon bal szélére.  
 Vagy, ha az jobban tetszik: kattintásra se töröld le a vásznat, viszont adj a sprite-nak új, véletlen színt.)  
-
-
 
 Ha szeretnél még feladatot:  
 __Sötétítő__  

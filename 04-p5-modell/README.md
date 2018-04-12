@@ -7,6 +7,7 @@ A p5 programok utasításai három blokkra vannak osztva: felkészülés - folya
 
 Írjunk vízcsepp-programot: egy kicsi, kék sprite elindul a vászon tetejéről, és lecsúszik - kattintásra pedig ugorjon vissza a vászon tetejére.  
 Teljesen üres sablon: http://jsbin.com/zuqaquc/edit?js,output  
+Sablon, amiben a gyakori elemek benne vannak: http://jsbin.com/xolewux/edit?js,output     
 
 
 

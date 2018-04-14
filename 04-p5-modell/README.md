@@ -11,16 +11,39 @@ Sablon, amiben a gyakori elemek benne vannak: http://jsbin.com/xolewux/edit?js,o
 
 
 
+Példamegoldás:  
+```JavaScript
+function setup() {                              // ELŐSZÖR...
+    createCanvas(windowWidth, windowHeight)     // vászon létrehozása (minden programba kell)
+    bob = createSprite()                        // bob létrehozása
+    bob.position.x = width / 2                  // bob kerüljön vízszintesen középre
+}
+
+function draw() {                               // AZTÁN ÚJRA MEG ÚJRA...
+    background("white")                         // töröljük a vásznat
+    bob.position.x += 1                         // lefelé mozdítjuk bobot
+    allSprites.draw()                           // kirajzoljuk bobot (minden programba kell)
+}
+
+function mouseClicked() {                       // EGÉRKATTINTÁSRA...
+    bob.position.y = 0                          // bob ugorjon a vászon tetejére
+}
+```
 
 
+
+__Figyelem:__  
+Először mindig a "description" (leírás) mezőt állítsd át a HTML fülön, hogy utólag a neve alapján meg tudd találni a programodat, és ne felejts el menteni!  
 
 Ötletek további mozgó programokra:  
 __Fény az alagút végén__  
 A vászon közepén létrejön egy 1*1-as méretű sprite, és elkezd nőni, de billentyűnyomásra visszaugrik az eredeti méretére. A vászon legyen fekete, a sprite fehér.  
-(Ha szeretnél még feladatot: tegyél be még egy sprite-ot a programba, ami szürke színű, és mindig 20 képpontal szélesebb és magasabb, mint a fehér.)  
+Példamegoldás: http://jsbin.com/tefuken/edit?js,output  
+(Ha szeretnél még feladatot: tegyél be még egy sprite-ot a programba, ami szürke színű, és mindig 20 képpontal szélesebb és magasabb, mint a fehér.)    
 
 __Kattraforgó__  
 Zöld vászon közepén egy sárga sprite folyamatosan forog. Ha kattintasz a vásznon, a sprite pont oda ugrik, ahol épp az egér van, és forog tovább.  
+Példamegoldás: http://jsbin.com/duwenid/edit?js,output  
 (Ha ki szeretnéd egészíteni: tegyél bele még egy sprite-ot a programba, ami helyben mindig követi az előzőt, de kicsit kisebb, fekete, és az ellenkező irányba forog.)  
 
 __Szobafestő__  
@@ -44,7 +67,7 @@ Egy üres, fekete vásznon létrejön egy sárga sprite véletlen helyen. A spri
 (Ezt még kiegészítheted azzal, hogy a sprite szélessége véletlenszerűen változik kb. 50-150 között, a magassága 1-3 között.)  
 
 __Hanghullám__  
-A sprite-od legyen 3 képpont széles, 1 képpont magas. Induljon a vászon bal széléről, függőlegesen középről. Minden pillanatban állítsd a magasságát véletlenre 0 és `height` között, és told vízszintesen jobbra három képponttal. A vásznat ne töröld le menet közben.  
+A sprite-od legyen 3 képpont széles, 1 képpont magas. Induljon a vászon bal széléről, függőlegesen középről. Minden pillanatban állítsd a magasságát (tehát a függőleges méretét, nem pedig a pozícióját) véletlenre 0 és `height` között, és told vízszintesen jobbra három képponttal. A vásznat ne töröld le menet közben.  
 (Ezt kiegészítheted azzal, hogy kattintásra letörlöd a vásznat, és visszahozod a sprite-ot a vászon bal szélére.  
 Vagy, ha az jobban tetszik: kattintásra se töröld le a vásznat, viszont adj a sprite-nak új, véletlen színt.)  
 

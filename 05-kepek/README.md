@@ -57,6 +57,7 @@ Keress egy képet, amin egy cápa ("shark") pont feléd néz. Hozz létre egy sp
 
 __Pecsételő__  
 Keress egy képet egy bármilyen pecsétről ("stamp"). Csinálj egy sprite-ot, ami megkapja ezt a képet kinézetnek. Indíts egy fehér háttérrel, és írd meg, hogy a sprite minden kattintásra ugorjon az egér helyére, és forogjon be véletlenszerű irányba (`rotation`, `random()`). A vásznat ne fesd fehérre újra meg újra, mert akkor eltűnnének a pecsételések.  
+(Létezik ennek egy még okosabb verziója, amikor a sprite mindig követi az egeret, kattintáskor pedig pecsétel a vászonra. Ehhez itt a leírás: [pillanatfelvétel](pillanatfelvetel.md).)  
 
 __LSD__  
 Keress egy képet egy banánról. Csinálj egy sprite-ot, ami a vászon közepén van, megkapja a banán-képet kinézetnek, és folyamatosan forog (`rotation`). Írd bele a programba, hogy a háttér minden pillanatban teljesen véletlen színűre színeződjön (`background()`, `color()`, `random()`).    

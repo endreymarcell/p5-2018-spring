@@ -3,7 +3,7 @@
 
 ![Skool - yes, she codes](http://endreymarcell.hu/p5v4/skool-logo.png)  
 Ez a 2018. tavaszi Skool & Prezi foglalkozás honlapja.  
-A foglalkozás csütörtökönként 17:00-19:00 között zajlik a Prezi irodájában, összesen tíz alkalommal március 22. és április 24. között.   
+A foglalkozás csütörtökönként 17:00-19:00 között zajlik a Prezi irodájában, összesen tíz alkalommal március 22. és május 31. között (április 26-a kimarad). 
 
 ## Facebook-csoport  
 https://www.facebook.com/groups/593638677636363/  
@@ -13,11 +13,11 @@ https://www.facebook.com/groups/593638677636363/
 2. óra - [Programozás alapfogalmai – Kool Kávézó](02-programozas-alapok/README.md)
 3. óra - [p5 alapok](03-p5-alapok/README.md)
 4. óra - [JSBin tutorial, p5 modell](04-p5-modell/README.md)
-5. óra - [p5 modell, képek beállítása](05-kepek/README.md)
-6. óra - [Mozgó, találkozó sprite-ok](06-mozgas-talalkozas/README.md)
-7. óra - [Feltételek, billentyűzet](07-feltetelek/README.md)
-8. óra - [For-ciklus](08-ciklusok/README.md)
-9. óra - [Sprite-csoportok](09-csoportok/README.md)
+5. óra - [Képek beállítása, mozgó és talákozó sprite-ok](05-kepek/README.md)
+6. óra - [Feltételek, billentyűzet](06-feltetelek/README.md)
+7. óra - [For-ciklus](07-ciklusok/README.md)
+8. óra - [Sprite-csoportok](08-csoportok/README.md)
+9. óra - [Programozás határok nélkül](09-elagazo/README.md)
 10. óra - [Saját játék megírása](10-sajat-jatek/README.md)
 
 ## Speciális karakterek

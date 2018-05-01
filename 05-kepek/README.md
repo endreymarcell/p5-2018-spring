@@ -69,10 +69,12 @@ Keress egy képet Mario-ról, meg egy képet egy gombáról, amit el kéne kapni
 
 ## Külön témák
 
+
 [Egyes számú téma](egyes-tema.md)  
 
 [Kettes számú téma](kettes-tema.md)  
 
 ## Közös programok
+
 
 [Közös programok](kozos-programok.md)  

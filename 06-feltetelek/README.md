@@ -36,6 +36,23 @@ __Forgatás__
 Írj egy programot, amiben minden kattintáskor létrejön egy új sprite az egér helyén, és elkezd automatikusan forogni (`rotationSpeed`).  
 Úgy írd meg, hogy ha a vászon bal felén jön létre, akkor jobbra forog, ellenkező esetben viszont balra (negatív forgási sebesség).  
 Azt is írd bele, hogy ha a vászon felső felében jön létre, akkor narancssárga, ha az alsóban, akkor kék.  
+(Ha ez megvan, kiegészítheted még azzal is, hogy egy sprite pedig fixen mindig az egeredet kövesse, viszont színben és forgásban ugyanazok a szabályok vonatkoznak rá, mint a többiekre.)  
+
+__Színválasztó__  
+Írj egy programot, amiben három sprite van, és ha rákattintasz bármelyikre, a vászon annak a sprite-nak a színére színeződik.  
+Ehhez először is hozz létre egy változót, amibe beleírod egy színnek a nevét, és mikor a `draw` blokkban beszínezed az egész vásznat a `background()` paranccsal, akkor annak a parancsnak ne egy konkrét színt adj meg, hanem ezt a bizonyos változót. Hozd létre a három sprite-ot is, és az egérkattintásra figyelő blokkban egyenként teszteld le, hogy rájuk kattintottál-e (tehát hogy a kattintás pillanatában az egér a sprite fölött van-e). Ehhez szükség van arra, hogy már a sprite-ok létrehozásakor "igaz"-ra (`true`) állítsd a sprite-ok `mouseActive` változóját! Ha valóban valamelyik sprite-ra kattintottál, tárold el az ő színét abban a változóban, amit először hoztál létre.  
+ 
+__Fémdetektor__  
+Keressünk fémet detektorral! Két sprite fog kelleni: az egyik a fém, a másik a detektor. A detektornak keress egy jó képet ("metal detector"), és írd meg, hogy mindig kövesse az egeret. A fém-sprite-ot kicsinyítsd le kb. 20*20 képpontnyira, helyzed véletlen helyre a vásznon, és tedd láthatatlanná - ezt úgy tudod megtenni, hogy a sprite `visible` ("látható") nevű változóját "hamis"-ra (`false`) állítod.  
+Ezek után már csak meg kell keresni a fémet a detektorral. Minden billentyűnyomáskor ellenőrizd, hogy a detektor a fém fölött van-e (rálóg-e, `overlap()`). Ha igen, tedd a fémet-sprite-ot láthatóvá.  
+Kattintásra pedig legyen a fém-sprite megint láthatatlan, és ugorjon egy véletlen helyre.    
+
+#### Unatkozós
+
+__Rángatható sprite__  
+Tipikus programozói feladat: szeretnénk, ha valamit - jelen esetben egy sprite-ot - meg lehetne fogni, és kattintással és húzással arrébb lehetne rakni.  
+Ötlet: hozz létre egy változót, ami megjegyzi, hogy most épp mozgatod-e a sprite-ot. (Én úgy nevezném el, hogy "isDragging", de elnevezheted máshogy is.) Ez alapból legyen "hamis" (`false`), aztán majd állítgatjuk. Írd meg azt is a `draw`-ban, hogy ha ez a változó igaz, akkor a sprite legyen mindig az egér helyén, amúgy viszont ne.  
+Infó: nem csak `mouseClicked` blokk van, hanem `mousePressed` és `mouseReleased` is - tehát pontosan el tudod kapni az egérgomb lenyomását és felengedését is. Az előbbi blokkban meg kell vizsgálni, hogy épp a sprite fölött van-e az egér (`mouseIsOver`, ne felejtsd el a `mouesActive` változót), és ha igen, "igaz"-ra (`true`) állítani azt a változódat, ami tudja, hogy épp rángatod-e a sprite-ot. A `mouseRelased` blokkban pedig ugyanezt a változót feltételn nélkül "hamis"-ra kell állítani.  
 
 ## Irányítás billentyűzettel
 
@@ -86,6 +103,25 @@ __Pablo Picasso__
 Írj egy programot, amiben egy sprite minden pillanatban véletlen helyre ugrik. Úgy írd meg, hogy a vászon ne törlődjön le újra meg újra, hogy megmaradjanak a sprite nyomai.  
 Utána a billentyűnyomáskor lefutó blokkba (`keyPressed`) írd bele azt, hogy ha az "r" betűt nyomtad, akkor a sprite kapjon piros színt; ha a "g" betűt, akkor zöldet; ha pedig a "b" betűt, akkor kéket. A program legelején a sprite induljon piros színnel.  
 Ha szeretnéd, azt is beleírhatod, hogy az "1" billentyű megnyomására a sprite összemegy az eredeti méretének a két tizedére (`scale` változó), a "2"-re megkapja az eredeti méretét, a "3"-ra viszont négyszeresére nő.  
+
+__Rotációs kapa__  
+Rakj a vászon közepére egy sprite-ot, és adj neki autókerék-alakot (vagy propeller, vagy smiley, vagy jin és jang, vagy bárki kerek). Írd meg, hogy a felfelé-billentyűre megnőjön valamennyivel a nagyítása (`scale`), a lefelé billentyűre pedig összemenjen kicsit.   
+Azt is írd meg, hogy a jobbra billentyűre megnőjön valamennyivel a forgási sebessége (`rotationSpeed`), a balra billentyűre pedig lecsökkenjen kicsit.  
+(Ha lélekben fel vagy készülve egy dupla feltételre: írd meg, hogy a sprite nagyítása sose menjen mondjuk 0.5 alá, tehát a lefelé gomb megnyomásakor még ezt is vizsgáld meg. Ezt vagy úgy tudod megtenni, hogy az if-be újabb if-et teszel, vagy úgy, hogy az egy darab if-be két feltételt írsz, és egy ÉS szerkezettel összekapcsolod őket - a mentorod segít.)  
+
+__Indokolatlan rajzoló__  
+A sprite-oknak van egy `visible` ("látható") nevű változója, ami alapból "igaz"-ra van állítva, de ki lehet kapcsolni. Ezt fogjuk most kihasználni.  
+Keress egy képet egy mobiltelefonról, egy hotdogról, egy basszusgitárról - vagy bármi indokolatlanról, ami eszedbe jut - és add alakul egy sprite-nak, aki egyben mindig követi az egeret.  
+Írd meg, hogy ha megnyomod az "i" (mint "invisible", tehát láthatatlan) billentyűt, akkor a sprite-nak a `visible` változója "hamis"-ra (`false`) állítódik, ha viszont a "v" (mint "visible") billentyűt nyomod meg, akkor állítódjon újra láthatóra.  
+A program elején a sprite rögtön indítson láthatatlanul, és a `draw` blokkban ne töröld le a vásznat. Innentől kedvedre rajzolhatsz a képeddel.   
+
+#### Unatkozós
+
+__Invázió__  
+Hozz létre egy űrhajó ("space ship" vagy "rocket") alakú sprite-ot a vászon közepén, és írd meg, hogy a jobbra-balra nyilak hatására 15 fokot forduljon a megadott irányba (`rotation`). Az a legjobb, ha olyan képet találsz, amin az űrhajó jobbra néz.  
+Hozz létre egy aszteroida-alakú sprite-ot is a vászon véletlen helyén.  
+Írd meg, hogy a szóköz billentyű lenyomására az űrhajó lő egyet - tehát létrejön a vászon közepén egy kicsi sprite (nem kell neki kép, csak állítsd kicsire) és kap egy fix, automatikus sebességet abba az irányba, amerre az űrhajó épp néz.  
+Találat: írd meg azt is, hogy ha a lövedék és az aszteroida fedésbe kerül, az aszteroida menjen új, véletlen helyre, a lövedék pedig törlődjön ki (`remove()`).   
 
 ## Kiegészítő téma: további sprite-mozgások
 
@@ -156,4 +192,8 @@ function draw() {
 
 ### Felhasználás
 
-Írj egy programot, amiben egy kosárlabda-képű sprite (`preload` meg minden) lefelé zuhan a gravitáció miatt (`addSpeed`), de mindig visszapattan (`bounce()`) egy másik, lapos, széles sprite-ról, ami mozdíthatatlan (`immovable`).  
+__Chicago Bulls__  
+Írj egy programot, amiben egy kosárlabda-képű ("basketball") sprite lefelé zuhan a gravitáció miatt (`addSpeed`), de mindig visszapattan (`bounce()`) egy másik, lapos, széles sprite-ról, ami mozdíthatatlan (`immovable`).  
+
+__Tüskecsarnok__  
+Írj egy programot, amiben egy sün-alakú ("hedgehog") sprite a vászon közepéről indulva a jobbra-balra nyilakra jobbra-balra fordul 15 fokot (`rotation`), az előre nyílra pedig kap valamennyi sebességet mindig épp az aktuális forgásának az irányába (`addSpeed`), de hogy ne csússzon a végtelenségig, valamennyi súrlódása is van (`friction`).  

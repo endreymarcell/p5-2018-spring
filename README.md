@@ -5,6 +5,9 @@
 Ez a 2018. tavaszi Skool & Prezi foglalkozás honlapja.  
 A foglalkozás csütörtökönként 17:00-19:00 között zajlik a Prezi irodájában, összesen tíz alkalommal március 22. és május 31. között (április 26-a kimarad). 
 
+## Kisokos
+[Összefoglaló az eddig tanultakról itt](kisokos.md)  
+
 ## Facebook-csoport  
 https://www.facebook.com/groups/593638677636363/  
 

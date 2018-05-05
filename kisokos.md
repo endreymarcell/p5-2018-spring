@@ -65,20 +65,20 @@ Megadja az egér aktuális helyének x, illetve y koordinátáját a vásznon (s
 ---
 
 ###### `mouseIsPressed` és `keyIsPressed`
-Megadja, hogy le van-e épp nyomva az egér gombja, illetve bármelyik billentyű (igaz/hamis)
-Tipikusan a `draw()`-ban használjuk.  
+Megadja, hogy le van-e épp nyomva az egér gombja, illetve bármelyik billentyű (igaz/hamis).  
+Tipikusan a `draw` blokkban használjuk.  
 
 ---
 
 ###### `key`
 Megadja a legutoljára lenyomott billentyűt (betű).  
-Általában a `keyPressed()`-ben használjuk.  
+Általában a `keyPressed` blokkban használjuk.  
 
 ---
 
 ###### `keyCode`
 Megadja a legutoljára lenyomott speciális billentyű kódját (szám).  
-Általában a `keyPressed()`-ben használjuk.  
+Általában a `keyPressed` blokkban használjuk.  
 Lehetséges értékek: `UP_ARROW`, `DOWN_ARROW`, `LEFT_ARROW`, `RIGHT_ARROW`, `BACKSPACE`, `DELETE`, `ENTER`, `TAB`, `ESCAPE`, `SHIFT`, `CONTROL`, `OPTION`, `ALT`
 
 ---
@@ -97,7 +97,7 @@ Tipikusan a `draw` blokkban használjuk.
 
 ###### `createCanvas(w, h)`
 Létrehoz egy `w` szélességű és `h` magasságú vásznat.  
-A `setup()`-ban használjuk.  
+A `setup` blokkban használjuk.  
 
 ---
 

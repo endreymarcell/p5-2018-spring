@@ -65,7 +65,7 @@ if (bob.position.x > width / 2) {
 
 #### +1: feltételek összekapcsolása
 
-Több feltételt ÉS illetve VAGY kapcsolatba tehetsz a `!!` illetve a `||` jelek használatával.  
+Több feltételt ÉS illetve VAGY kapcsolatba tehetsz a `&&` illetve a `||` jelek használatával.  
 Példa ÉS kapcsolatra:  
 ```JavaScript
 if (bob.position.x > width / 2 && bob.position.y > height / 2) {

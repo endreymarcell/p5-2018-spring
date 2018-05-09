@@ -256,7 +256,9 @@ Hozz létre hat sprite-ot. Az első három legyen piros, és kerüljön egy csop
 Aztán hozz létre még egy utolsó sprite-ot, és írd meg a `draw` blokkban, hogy mindig kövesse az egeret. Azt is írd bele a `draw` blokkba, hogy az egeret követő sprite eltolja (`displace()`) a zöldeket, de megakadok (`collide`) a pirosakban.  
 Ehhez nincs szükség for ciklusra, a fenti parancsokat egyéni sprite-okra és csoportokra egyaránt tudod alkalmazni.  
 
-
+__Forgó__  
+Keress egy képet egy pénzérméről ("coin"). Hozz létre for-ciklussal tíz sprite-ot, tedd őket véletlen helyre és add nekik alakul a pénzérme-képet. Hozz létre egy csoportot is. Aztán írj még egy for-ciklust még a `setup` blokkban, ami végigmegy az `allSprites` csoport első öt elemén, és hozzáadja őket a saját csoportodhoz.  
+A `draw` blokkban pedig azt írd meg, hogy ha a vászon bal felében tartod az egeret, akkor a saját csoportodban lévő érme-sprite-ok forognak (`rotation` változó növelése).    
 
 #### Unatkozós
 

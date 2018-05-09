@@ -290,6 +290,61 @@ Megmondja, hogy az egér éppen a sprite fölött van-e (igaz/hamis).
 Feltételekben (`if`) használjuk.  
 Csak akkor működik, ha korábban a sprite `mouseActive` változóját igazra állítottuk!    
 
+## Rajzolás
+
+### Alakzatok  
+###### `point(x, y)`
+Rajzol egy pöttyöt az (x, y) pontba.  
+Például: `point(100, 200)`  
+
+###### `line(x1, y1, x2, y2)`
+Húz egy vonalat az (x1, y1) pontból az (x2, y2) pontba.  
+Például: `line(0, 0, mouseX, mouseY)`  
+
+###### `rect(x, y, w, h)`
+Rajzol egy téglalapot, aminek a sarka az (x, y) pont, w a szélessége és h a magassága.  
+Például: `rect(0, 0, width / 2, height / 2)`  
+
+###### `circle(x, y, r)`
+Rajzol egy kört, aminek (x, y) a középpontja és r a sugara.  
+Például: `circle(width / 2, height / 2, 150)`  
+
+### Alakzatok nézete__  
+###### `strokeWeight(n)`
+Beállítja a vonal vastagságát.  
+Például: `strokeWeight(12)`  
+
+###### `stroke(c)`
+Beállítja a körvonal színét.  
+Például: `stroke("black")` vagy `stroke(color(208, 165, 171))`  
+
+###### `noStroke()`
+Kikapcsolja a körvonalat.  
+
+###### `fill(c)`
+Beállítja a kitöltőszínt (ami az alakzatok belsejében van).  
+Például: `fill("blue")` vagy `fill(color(17, 81, 55))`  
+
+###### `noFill()`
+Kikapcsolja a kitöltőszínt (az alakzatok belseje átlátszó lesz).  
+
+### Szöveg
+###### `text(s, x, y)`
+Kiírja `s` szöveget (x, y) pontba.  
+Például: `text("Szia!", width / 2, height / 2)`  
+
+###### `textSize(n)`
+Beállítja a betűméretet n-re.  
+Például: `textSize(48)`  
+
+###### `textFont(s)`
+Beállítja a betűtípust s-re.
+Például: `textFont("Courier New")`  
+
+###### `textAlign(s1, s2)`
+Beállítja a szöveg igazítását, tehát hogy mikor meghívjuk a `text()` függvényt, akkor az átadott (x, y) pont a szöveg melyik pontja lesz.  
+Alapértelmezésben ez a bal szöveg bal felső sarka, de átállíthatjuk a szöveg középpontjára: `textAlign("center", "center")`  
+
 ## Szerkezetek (feltétel, ciklusok, csoportok)
 
 #### Feltételek

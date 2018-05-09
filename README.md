@@ -19,7 +19,7 @@ https://www.facebook.com/groups/593638677636363/
 5. óra - [Képek beállítása, mozgó és talákozó sprite-ok](05-kepek/README.md)
 6. óra - [Feltételek, billentyűzet](06-feltetelek/README.md)
 7. óra - [For-ciklus](07-ciklusok/README.md)
-8. óra - [Sprite-csoportok](08-csoportok/README.md)
+8. óra - [Grafika](08-grafika/README.md)
 9. óra - [Programozás határok nélkül](09-elagazo/README.md)
 10. óra - [Saját játék megírása](10-sajat-jatek/README.md)
 

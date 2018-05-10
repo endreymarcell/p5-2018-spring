@@ -186,6 +186,17 @@ function draw() {
 }
 ```
 
+Ezen a programon még lehet egy kicsit javítani. Most az a gond, hogy ha kitalálom, hogy mégsem 5 sprite kell, hanem 10, akkor két helyen is át kell írnom: a `setup` blokkban és a `draw` blokkban is.  
+Úgy lehet okosabban csinálni, hogy a `draw` blokkba nem írom bele számmal, hogy hányszor fusson a ciklus, hanem azt mondom, hogy pont annyiszor, ahány sprite-om éppen van. Ezt az `allSprites.length` változó árulja el. Tehát:  
+```JavaScript
+for (i = 0; i < 5; i += 1) {
+```
+helyett
+```JavaScript
+for (i = 0; i < allSprites.length; i += 1) {
+```
+és akkor innentől kedvemre módosíthatom a létrehozott sprite-ok számát a `draw` blokkban, a `setup` automatikusan működni fog.  
+
 ### Programok csoportokkal
 
 __Nagyon kávé__  

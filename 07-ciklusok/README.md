@@ -208,6 +208,12 @@ Aztán írd meg a `draw` blokkot úgy, hogy a sprite aktuális nagyítása (`sca
 Azt is írd meg, hogy a sprite forgása (`rotation`) pedig az egér aktuális y pozícióját vegye fel.    
 Ha ez megvan, jön a poén: írd át a sprite létrehozását a `setup` blokkban úgy, hogy ciklust használjon, és legyen 20 sprite; és a `draw` blokkban is használj ciklust, hogy mindegyik sprite nagyítódjon és forogjon.   
 
+__Hóesős__  
+Keress egy képet egy hópihéről ("snowflake"). A `setup` blokkban hozz létre egy csoportot nekik, aztán for ciklusban hozz létre 12 sprite-ot, és tedd bele őket a csoportba. Ezen felül tedd minegyiket (tobábbra is a for ciklusban) random helyre, mindegyiknek add alakul a hópihét, és adj nekik egy automatikus sebességet is lefelé (`setSpeed()`).  
+Ha jól csináltad, szépen esnek lefelé a hópelyhek. (Kék háttér előtt még látványosabb, mint fehér előtt.) Most már csak az kéne, hogy ne fogyjanak el, hanem ami kiesett alul, az essen be újra felül. Ezt úgy tudod megoldani, hogy a `draw` blokkban egy for ciklussal végigmész a csoport összes tagján, és a for cikluson belül egy if-fel megnézed, hogy kimentek-e a vászon alján (tehát az y koordinátájuk nagyobb-e `height`-nál). Ha igen, akkor vissza kell őket tenni felülre (y-t nullára).  
+Ha ez még nem elég, csinálj még egy sprite-ot, aki egy hóember ("snowman") alakját kapja, és persze nincs benne az általad létrehozott csoportban. A hóember álljon a vászon alján, az x koordinátája legyen mindig az egér aktuális x koordinátája, és ne tudjanak rajta átesni a hópihék (tehát ütközzenek neki, `collide()`).  
+ 
+
 __Gyere közelebb__  
 Írj egy programot, amiben létrejön egy sprite egy véletlen helyen, és aztán minden pillanatban az egértől függően állítod be a méretét - konkrétan úgy, hogy a sprite nagyítását (`scale`) beállítod ennyire: `100 / dist(bob.position.x, bob.position.y, mouseX, mouseY)`. A sprite automatikus forgási sebességét (`rotationSpeed`) is beállíthatod ugyanerre az értékre.    
 (A `dist()` függvény megmondja két dolog távolságát - jelen esetben a bob nevű sprite és az egér távolságát. Az osztás pedig azért kell, mert azt szeretnénk, hogy minél _kisebb_ az egér és a sprite távolsága, annál _nagyobb_ legyen a sprite mérete - tehát meg kell fordítani az arányosságot.)  

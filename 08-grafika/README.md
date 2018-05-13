@@ -73,7 +73,7 @@ Alapértelmezésben ez a bal szöveg bal felső sarka, de átállíthatjuk a sz�
 
 ## Rajzolós programok
 
-#### Körös
+### Körös
 
 __Random__  
 Írj egy programot, ami minden pillanatban rajzol a vászonra egy kört (`circle()`) véletlen helyre, véletlen méretben (mondjuk 10-500 képpont között mozogjon a sugara). A kör kerete (`stroke()`) fekete legyen, a belseje ne legyen kiszínezve (`noFill()`). A vászont ne fesd le újra meg újra, hogy a körök megmaradjanak.  
@@ -89,7 +89,7 @@ __Hipno__
 Ha ez megvan, okosítsd fel úgy, hogy mindig csak annyi kört rajzoljon, hogy a körök ne menjenek "túl" az egéren. Tehát amilyen távol van az egér épp a vászon középpontjától, legfeljebb akkora lehet a legnagyobb kör - viszont annyi mindig legyen is. (Szóval például ha behúzod az egeret 12 képpontra a középponttól, akkor csak 1 kör legyen, de ha elviszed mondjuk 438 messzire, akkor legyen 48.) Ld. a `dist()` függvényt az előző feladatból.  
 Én valószínűleg úgy csinálnám, hogy eleve megpróbálnám az egér helyzetéhez igazítva beállítani a for ciklus felső határát. 
 
-#### Vonalas
+### Vonalas
 
 __Random__  
 Húzz véletlen vonalakat a vásznon - véletlen pontokból véletlen pontokba. A vásznat te töröld le közben.  
@@ -106,7 +106,7 @@ Ha kész vagy, gondolkozhatsz azon, hogyan tennéd a vonalkódot a vászon köze
 Azt is megírhatod, hogy minden egérkattintásra új vonalkód generálódjon.  
 Vagy akár azt, hogy egy véletlen számsor is oda legyen írva a vonalkód alá, mint a valódiaknál.  
 
-#### Szöveges
+### Szöveges
 
 Szöveges programok `setup` blokkjában általában érdemes kiadni ezt a parancsot, ami középre igazítja a szövegeket:  
 ```javascript

@@ -133,4 +133,3 @@ _Program_
 A program `setup` blokkjában hozz létre két változót: az egyikbe tedd bele a szöveget, pontosabban a szöveget, amire meghívod a `split()` függvényt, hogy szavakra bontsa. A másik változó egy számláló, ebben a 0 számot tedd egyelőre.  
 Aztán a `draw` blokkban minden pillanatban fesd le fehérre a vásznat, írd ki `text()` függvénnyel a szavak közül azt, ahányadiknál a számláló tart, aztán pedig növeld meg a számlálót.  
 Ez elsőre valószínűleg túl gyors lesz, mert a `draw` blokk nagyon gyorsan ismétlődik. Viszont ennek a sebességét be tudod állítani, ha a `setup` blokkban meghívod a `frameRate()` függvényt és átadsz neki egy számot, ami megmondja, hogy másodpercenként hágyszor fusson le a `draw`.  
-// Példamegoldás: http://jsbin.com/gafafaz/1/edit?js,output  

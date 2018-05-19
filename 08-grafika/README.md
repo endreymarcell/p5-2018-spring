@@ -3,7 +3,8 @@
 ## Paint
 
 Próbáld meg tíz perc alatt minél élethűbben reprodukálni a számodra kiosztott híres festményt [ebban a nagyon egyszerű Paint programban](http://jsbin.com/wayacaw/quiet)!  
-Közben fél szemmel figyelj a magyarázó szövegre, amit a kép alján látsz. A program itt mindig kiírja, milyen p5 függvénnyel lehet megrajzolni, amit épp csináltál.   
+Közben fél szemmel figyelj a magyarázó szövegre, amit a kép alján látsz. A program itt mindig kiírja, milyen p5 függvénnyel lehet megrajzolni, amit épp csináltál.  
+
 
 ## Emoji
 

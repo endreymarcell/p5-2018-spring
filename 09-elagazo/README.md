@@ -1,7 +1,9 @@
 # Programozás határok nélkül
 
-
 Az utolsó előtti foglalkozásra speciális témakörökkel készültünk. Egyiket sem fogjuk mindenkinek elmondani, hanem mindenki választhat magának kettő témakört, amivel az első, illetve a második 60 percben szeretne foglalkozni. Minden téma mellett szerepelni fog a használati utasítás, és minden témának lesz egy szakértő mentora, aki segít a programozásban.  
+A témák leírásában többi-kevésbé konkrét programok vannak leírva, de nem kell feltétlenül ezeket megvalósítani. Nyugodtan alakítsd át a programokat a saját ízlésed szerint.  
+
+Ha a program a `map()` függvény használatát ajánlja, olvasd el itt, hogyan működik: [a map() függvény](map.md).  
 
 Választható témakörök:  
 

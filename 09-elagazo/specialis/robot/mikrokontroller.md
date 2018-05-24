@@ -59,8 +59,8 @@ Vagy írhattok olyat, hogy a szervó minden egérkattintásra véletlen irányt 
 
 Használjunk piezoelektromos hangszórót hangadásra!  
 Kapcsolási rajz:  
-![](piezo.png)  
-A potméterrel
+![](piezo.jpg)  
+(A potméterrel a hangerőt lehet szabályozni.)  
 
 Programban: hozzátok létre a `board` kontrollert, aztán a piezo-t így:
 ```javascript

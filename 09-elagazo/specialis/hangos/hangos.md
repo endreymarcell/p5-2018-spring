@@ -103,7 +103,9 @@ Az asztalon keresd meg az Atom ikonját, és indítsd el a programot. Bal oldalo
 A menüben válaszd a Packages - atom-live-server - Start Server parancsot. A megnyíló Chrome ablakban kattints az első programra. (Ha engedélyt kér a mikrofon használatára, engedélyezd.) Itt fog futni a programod (ez az Output fül megfelelője).  
 Atomban válaszd ki a fájlok közül az "1. program" mappában lévő sketch.js nevű fájlt. Ide írhatod a JavaScript kódot. A változtatásaid után újra kell töltened a weboldalt.  
 Az a legpraktikusabb, ha a számítógép képernyőjének a bal felébe az Atomot teszed, a jobb felébe pedig a Chrome-ot.  
-Ha kész az első program, a böngésző vissza-gombjával vissza tudsz menni a programok közötti választáshoz.  
+Ha kész az első program, a böngésző vissza-gombjával vissza tudsz menni a programok közötti választáshoz.
+
+__Otthonra:__ mentsd le [ezt a fájlt](p5-hangok.html) a számítógépre (jobb klikk a linken, mentés másként), aztán nyisd meg Chrome böngészővel (vagy úgy, hogy megkeresed a fájlt és kétszer kattintasz rá, vagy úgy, hogy megnyitod a Chrome-ot, és Fájl > Megnyitás).  
 
 #### Elmélet
 A hangfelvételhez először létre kell hozni és be kell kapcsolni egy hangfelvevőt a `setup` blokkban:  

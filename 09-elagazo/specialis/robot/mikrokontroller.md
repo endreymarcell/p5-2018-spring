@@ -79,7 +79,7 @@ Használjátok a `map()` függvényt, hogy a `mouseY` változót átvetítsétek
 #### LED-ek
 
 Kapcsolási rajz:  
-![](leds.png)  
+![](kapcsolasi-rajzok/leds.png)  
 Először csak egy ledet tegyetek be, azt, ami az áramkörök a 2-eshez csatlakozik.  
 A `setup` blokkban hozzátok létre a kontrollert. A ledet így éritek el rajta:  
 ```javascript

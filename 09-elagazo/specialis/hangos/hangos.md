@@ -105,7 +105,9 @@ Atomban válaszd ki a fájlok közül az "1. program" mappában lévő sketch.js
 Az a legpraktikusabb, ha a számítógép képernyőjének a bal felébe az Atomot teszed, a jobb felébe pedig a Chrome-ot.  
 Ha kész az első program, a böngésző vissza-gombjával vissza tudsz menni a programok közötti választáshoz.
 
-__Otthonra:__ mentsd le [ezt a fájlt](p5-hangok.html) a számítógépre (jobb klikk a linken, mentés másként), aztán nyisd meg Chrome böngészővel (vagy úgy, hogy megkeresed a fájlt és kétszer kattintasz rá, vagy úgy, hogy megnyitod a Chrome-ot, és Fájl > Megnyitás).  
+__Otthonra:__ mentsd le [ezt a fájlt](p5-hangok.html) a számítógépre (jobb klikk a linken, mentés másként), és töltsd le az Atom nevű kódszerkesztő programot [innen](https://atom.io/). Aztán nyisd mge a HTML fájlt Atomban is és Chrome-ban is.  
+Atomban látni fogod azt a részt a fájlban, ahova a JavaScript kódot kell írnod. A változtatások után mentsd el a fájlt, menj át Chrome-ba, és töltsd újra az oldalt - és már fut is a programod!  
+Ha szükséged lenne a JavaScript konzolra, hogy lásd a `print()` függvénnyel kiírt üzeneteket vagy az esetleges hibákat, a Ctrl + Shift + J (macbookon Cmd + Shift + J) billentyűkombinációbal tudod megnyitni.     
 
 #### Elmélet
 A hangfelvételhez először létre kell hozni és be kell kapcsolni egy hangfelvevőt a `setup` blokkban:  

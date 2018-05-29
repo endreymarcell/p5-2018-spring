@@ -1,21 +1,27 @@
 # Saját játék
 
-### Mátrix-eső
-TODO
+- [Mátrix-eső](#mátrix-eső)  
+- [Flappy bird](#flappy-bird)  
+- [Asteroid](#asteroid)  
+- [Snake](#snake)  
+- [Azért nem csináltam meg a házit, mert a Pacman megette a kurzoromat](#azért-nem-csináltam-meg-a-házit-mert-a-pacman-megette-a-kurzoromat)  
 
-### Flapyy bird
+## Mátrix-eső
+_35 sornyi kód_  
+Inspiráció: https://www.youtube.com/watch?v=QHVqpRRX6EU  
 
-TODO  
+## Flappy bird
+_57 sornyi kód_  
+Inspiráció: https://www.youtube.com/watch?v=fQoJZuBwrkU  
 
-### Asteroid
+## Asteroid
+_72 sornyi kód_  
+Inspiráció: https://www.youtube.com/watch?v=WYSupJ5r2zo  
 
-TODO
+## Snake
+_83 sornyi kód_  
+Inspiráció: https://www.youtube.com/watch?v=5nOgiYJ1mzA  
 
-### Snake
-
-TODO
-A snake sok kis négyzet alakú sprite-ból áll össze. Elég bonyolult lenne mindegyiket helyesen mozgatni, ahogy a kígyó halad, de itt van egy ötlet: sokkal egyszerűbb: ha mindig csak megfogjuk a kígyó farkát, tehát a legutolsó sprite-ot a sorban, és azt átrakjuk a kígyó legelejére. - Még pontosabban: az utolsó sprite-ot oda rakjuk, ahol a legelső sprite van, aztán pedig eltoljuk a kígyó aktuális mozgásának az irányába.  
-Mielőtt elkezdesz programozni, ezt röviden beszéld át egy mentorral, hogy ők is tudják, hogy fog működni a program, amit írsz :)  
-  
-Először csak hozz létre egy sprite-ot véletlen helyen, meg egy csoportot a kígyónak, és a sprite-ot tedd bele a csoportba. 
-
+## Azért nem csináltam meg a házit, mert a Pacman megette a kurzoromat
+_52 sornyi kód_  
+Inspiráció: https://www.youtube.com/watch?v=_H5j9cJo5bk  

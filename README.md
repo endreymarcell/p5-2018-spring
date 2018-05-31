@@ -23,6 +23,9 @@ https://www.facebook.com/groups/593638677636363/
 9. óra - [Programozás határok nélkül](09-elagazo/README.md)
 10. óra - [Saját játék megírása](10-sajat-jatek/README.md)
 
+## Hogyan tovább
+Mit tanulj ez után? [Itt egy kis gyűjtemény](etc/utravalo.md).  
+
 ## Speciális karakterek
 ### Windows
 | Karakter | kód              | Karakter | kód            |

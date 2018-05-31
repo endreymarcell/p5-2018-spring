@@ -390,14 +390,51 @@ for (i = 0; i < 10; i += 1) {
 
 #### Csoportok
 
-TODO
+###### createGroup()
+Létrehoz és visszaad egy csoportot, amit változóba tudunk menteni.  
+Például: `stars = createGroup()`  
+
+###### group.add(sprite)
+Hozzáadja a sprite-ot a csoporthoz.  
+Például: `stars.add(bob)`  
+
+###### group.length
+Megmondja, hogy hány sprite van éppen a csoportban (szám).
+
+###### allSprites
+Ez a csoport magától létrejön, és automatikusan belekerül minden sprite, akit létrehozunk.    
+
+##### Tipikus használat `setup` blokkban
+Létrehozzuk a csoportot, aztán 15 sprite-ot véletlen helyen, akiket hozzá is adunk:   
+```javascript
+stars = createGroup()
+for (i = 0; i < 15; i += 1) {
+    bob = createSprite()
+    bob.position.x = random(0, width)
+    bob.position.y = random(0, height)
+    bob.mouseActive = true
+    stars.add(bob)
+}
+```
+A sprite-okat a `mouseActive` változó igazra állításával az egérre is érzékennyé tettük.  
+
+##### Tipikus használat `draw` blokkban
+Végigmegyünk a `stars` csoport összes elemén, mindegyiket elforgatjuk, és ha valamelyikre kattintottak, azt megnagyítjuk:  
+```javascript
+for (i = 0; i < stars.length; i += 1) {
+    stars[i].rotation += 5
+    if (stars[i].mouseIsOver) {
+        stars[i].scale += 0.2
+    }
+}
+```
 
 ## JSBin használata
 
 ### Kezelés
 
 ##### Bejelentkezés
-A bejelentkezéshez előbb a [github.com](github.com)-ra kell regisztrálni, és ezzel belépni JSBinre, [lásd itt](./03-p5-alapok/jsbin-instructions.md).  
+A bejelentkezéshez előbb a [github.com](github.com)-ra kell regisztrálni, és ezzel belépni JSBinre, [lásd itt](03-p5-alapok/jsbin-instructions.md).  
 JSBint regisztráció és bejelentkezés nélkül is lehet használni, de akkor nem maradnak meg a programjaid.  
 Bejelentkezés után a programjaid az internetre mentődnek, és bárhonnan meg tudod őket nyitni.  
 
@@ -417,6 +454,8 @@ Itt kell a `p5v4 sablon` helyére beírni a programod nevét, később ezen a n�
 
 ##### Mentés
 `File > Save snapshot` vagy Ctrl + S: elmenti a programot. Figyeld a böngésző címsorát, mert csak akkor működött a mentés, ha megváltozik a cím.  
+Néha többször kell próbálkozni, esetleg beleírni-kitörölni egy betűt, és újra menteni, hogy tényleg működjön.  
+Az egyetlen bombabiztos megoldás annak az ellenőrzésére, hogy mentődött-e a bin, hogy megnyitod egy inkognítóablakban, és megnézed a tartalmát.  
 
 ---
 
@@ -508,7 +547,3 @@ Ctrl + Shift + L: szépre rendezi a kódot.
 
 ##### Exportálás  
 `File > Export as gist`: exportálja az egész programot a github.com oldalra. 
-
-## Példaprogramok
-
-TODO
